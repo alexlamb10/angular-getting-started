@@ -55,6 +55,8 @@ export class ProductListComponent implements OnInit, OnDestroy{
     this.sub.unsubscribe();
   }
 
+  // Check for contribution
+
   onRatingClicked(message: string): void {
     this.pageTitle = 'Product List: ' + message; 
   }
