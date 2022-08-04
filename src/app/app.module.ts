@@ -7,10 +7,11 @@ import {HttpClientModule} from '@angular/common/http'
 
 import { ProductListComponent } from './products/product-list.component';
 import { AppComponent } from './app.component';
+import { ProductDetailComponent } from './products/product-detail.component';
 
 @NgModule({
   declarations: [
-    AppComponent, ProductListComponent, ConvertToSpacesPipe, StarComponent
+    AppComponent, ProductListComponent, ConvertToSpacesPipe, StarComponent, ProductDetailComponent
   ],
   imports: [
     BrowserModule,
